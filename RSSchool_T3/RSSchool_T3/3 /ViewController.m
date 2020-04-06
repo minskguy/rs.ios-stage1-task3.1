@@ -6,7 +6,6 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    NSLog(@"%f and %f", self.view.frame.size.height, self.view.frame.size.width);
     
     // Creating labelResultColor
     self.labelResultColor = [[UILabel alloc] initWithFrame:CGRectMake(30, 100, 100, 35)];
